@@ -89,7 +89,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : disqus
+    provider : gitment
     disqus :
       short_name : https-jianan-shi-github-io
     # livefyre :

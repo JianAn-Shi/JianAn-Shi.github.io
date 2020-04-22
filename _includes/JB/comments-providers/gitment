@@ -1,0 +1,14 @@
+<div id="gitmentContainer"></div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+    owner: '史建安',
+    repo: 'https://jianan-shi.github.io/',
+    oauth: {
+        client_id: 'a81d67684f89f1fa8fdb',
+        client_secret: 'cb4d618d40091891c1bc62248f50faeba6085eec',
+    },
+});
+gitment.render('gitmentContainer');
+</script>
