@@ -89,9 +89,12 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : gitment
+    provider : disqus
     disqus :
       short_name : https-jianan-shi-github-io
+    gitment :
+      client_id : a81d67684f89f1fa8fdb
+      client_secret : cb4d618d40091891c1bc62248f50faeba6085eec
     # livefyre :
     #   site_id : 123
     # intensedebate :

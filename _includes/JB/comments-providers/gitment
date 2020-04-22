@@ -2,12 +2,14 @@
 <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
+var client_id = '{{ site.JB.comments.gitment.client_id }}';
+var client_secret = '{{ site.JB.comments.gitment.client_secret }}';
 var gitment = new Gitment({
     owner: '史建安',
     repo: 'https://jianan-shi.github.io/',
     oauth: {
-        client_id: 'a81d67684f89f1fa8fdb',
-        client_secret: 'cb4d618d40091891c1bc62248f50faeba6085eec',
+        client_id: client_id,
+        client_secret: client_secret,
     },
 });
 gitment.render('gitmentContainer');
