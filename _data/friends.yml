@@ -1,20 +1,6 @@
-# - url: http://samray.me/
-#   name: Samray Leung
+# 使用#号注释
+- url: https://juejin.im/user/57fe54d6128fe10054848fe4
+  name: HuangSir掘金主页
 
-# - url: https://wsgzao.github.io
-#   name: wsgzao
-
-# - url: http://gaopenghigh.github.io
-#   name: 做美好的人，做酷的事
-
-# - url: https://crispgm.com
-#   name: DAVID ZHANG
-
-# - url: https://franklinqin0.me
-#   name: Franklin
-
-# - url: https://blog.walterlv.com/post/setup-jekyll-in-windows.html
-#   name: 快速在 Windows 上搭建 Jekyll 开发环境
-
-# - url: https://blog.csdn.net/zzq900503/article/details/36898963
-#   name: java保留两位小数5种方法
+- url: https://www.zhihu.com/people/huangsir-42-30
+  name: HuangSir知乎主页
